@@ -158,11 +158,6 @@ echo "user_pref("browser.tabs.hoverPreview.enabled", false);" > \
 ## Terminal
 
 > [!NOTE]
-> Click your way to the finish!
->
-> Ideally this would be done with [defaults write](https://github.com/aclark4life/setup-macos/blob/40eee1aad8bd0e1aa6926af9751f95f905fd89d8/project.mk#L3-L11).
-
-> [!NOTE]
 > 
 > Increase the font size 4 times
 
