@@ -155,6 +155,47 @@ echo "user_pref("browser.tabs.hoverPreview.enabled", false);" > \
 
 ```
 
+## Terminal
+
+> [!NOTE]
+> 
+> Increase the font size 4 times
+
+- ⌘ ++++
+
+> [!NOTE]
+> 
+> Save as default
+
+- Terminal → Shell → Use Settings as Default
+
+### Preferences…
+
+#### General
+
+- New tabs open with: [Default Working Directory]
+
+#### Profiles → Advanced → Bell
+
+- ☐ Audible bell 
+- ☐ Visual bell 
+- ☐ Badge app and window Dock 
+- ☐ Bounce app icon when in background 
+
+#### Profiles → Shell
+
+- [Close the window] When the shell exits
+- [Never] Ask before closing
+
+#### Profiles → Window
+
+> [!NOTE]
+> 
+> Window size x 1.5
+
+- Window Size → Columns → 120
+- Window Size → Rows → 36
+
 ## System Preferences
 
 > [!NOTE]
@@ -214,46 +255,5 @@ echo "user_pref("browser.tabs.hoverPreview.enabled", false);" > \
 - alexclark → Login Items → + Jumpcut
 - alexclark → Login Items → + pCloud Drive
 - Login Options → Automatic Login → alexclark
-
-## Terminal
-
-> [!NOTE]
-> 
-> Increase the font size 4 times
-
-- ⌘ ++++
-
-> [!NOTE]
-> 
-> Save as default
-
-- Terminal → Shell → Use Settings as Default
-
-### Preferences…
-
-#### General
-
-- New tabs open with: [Default Working Directory]
-
-#### Profiles → Advanced → Bell
-
-- ☐ Audible bell 
-- ☐ Visual bell 
-- ☐ Badge app and window Dock 
-- ☐ Bounce app icon when in background 
-
-#### Profiles → Shell
-
-- [Close the window] When the shell exits
-- [Never] Ask before closing
-
-#### Profiles → Window
-
-> [!NOTE]
-> 
-> Window size x 1.5
-
-- Window Size → Columns → 120
-- Window Size → Rows → 36
 
 [Back to top](#table-of-contents)
