@@ -171,10 +171,6 @@ echo "user_pref("browser.tabs.hoverPreview.enabled", false);" > \
 
 ### Preferences…
 
-#### General
-
-- New tabs open with: [Default Working Directory]
-
 #### Profiles → Advanced → Bell
 
 - ☐ Audible bell 
