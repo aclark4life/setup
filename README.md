@@ -151,7 +151,7 @@ git push --set-upstream origin main
 
 ```
 echo "user_pref("browser.tabs.hoverPreview.enabled", false);" > \
-    "Library/Application\ Support/Firefox/Profiles/<profile>/user.js
+    ~/Library/Application\ Support/Firefox/Profiles/<profile>/user.js
 
 ```
 
