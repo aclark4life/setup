@@ -25,6 +25,7 @@ Based on:
 - [Firefox tab previews](#firefox-tab-previews)
 - [nvm](#nvm)
 - [m](#m)
+- [Brew Services](#brew-services)
 - [Terminal](#terminal)
     - [Preferences…](#preferences)
         - [General](#general)
@@ -181,6 +182,16 @@ nvm use 22
 
 ```
 npm install -g m
+```
+
+## Brew services
+
+> [!NOTE]
+>
+> Start postgresql
+
+```
+brew services start postgresql
 ```
 
 ## Terminal
