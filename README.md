@@ -24,6 +24,7 @@ Based on:
 - [pCloud](#pcloud)
 - [Firefox tab previews](#firefox-tab-previews)
 - [nvm](#nvm)
+- [m](#m)
 - [Terminal](#terminal)
     - [Preferences…](#preferences)
         - [General](#general)
