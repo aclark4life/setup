@@ -23,6 +23,7 @@ Based on:
 - [VS Code](#vs-code)
 - [pCloud](#pcloud)
 - [Firefox tab previews](#firefox-tab-previews)
+- [nvm](#nvm)
 - [Terminal](#terminal)
     - [Preferences…](#preferences)
         - [General](#general)
@@ -157,6 +158,17 @@ git push --set-upstream origin main
 echo "user_pref("browser.tabs.hoverPreview.enabled", false);" > \
   ~/Library/Application\ Support/Firefox/Profiles/<profile>/user.js
 
+```
+
+## nvm
+
+> [!NOTE]
+> 
+> Installed by Homebrew, used to install `m`
+
+```
+nvm install 22
+nvm use 22
 ```
 
 ## Terminal
