@@ -174,7 +174,7 @@ nvm use 22
 ## m
 
 ```
-nvm install -g m
+npm install -g m
 ```
 
 ## Terminal
