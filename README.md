@@ -25,7 +25,7 @@ Based on:
 - [Firefox tab previews](#firefox-tab-previews)
 - [nvm](#nvm)
 - [m](#m)
-- [Brew Services](#brew-services)
+- [Brew services](#brew-services)
 - [Terminal](#terminal)
     - [Preferences…](#preferences)
         - [General](#general)
