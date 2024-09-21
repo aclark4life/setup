@@ -171,6 +171,12 @@ nvm install 22
 nvm use 22
 ```
 
+## m
+
+```
+nvm install -g m
+```
+
 ## Terminal
 
 > [!NOTE]
