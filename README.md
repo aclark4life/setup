@@ -78,6 +78,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/inst
 
 ```bash
 .pyenv/shims/pip install pipx
+.pyenv/shims/pipx install dotfiles 
+.pyenv/shims/pipx install checkoutmanager
+.pyenv/shims/pipx install pypistats
+.pyenv/shims/pipx install uv
 ```
 
 ## Dotfiles
@@ -86,7 +90,6 @@ A lot of setup happens [here](https://github.com/aclark4life/dotfiles).
 
 ```bash
 git clone https://github.com/aclark4life/dotfiles Dotfiles
-.pyenv/shims/pipx install dotfiles 
 .local/bin/dotfiles -sf
 ```
 
@@ -107,8 +110,7 @@ k
 ## Checkout Manager
 
 ```bash
-cd ~/.checkoutmanager && git clone git@github.com:aclark4life/checkoutmanager
-pipx install checkoutmanager && u
+cd ~/.checkoutmanager && git clone git@github.com:aclark4life/checkoutmanager && u
 ```
 
 ## Dotfiles remote
