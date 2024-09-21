@@ -182,6 +182,9 @@ nvm use 22
 
 ```
 npm install -g m
+m stable
+mo start
+ml single
 ```
 
 ## Brew services
