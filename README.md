@@ -110,7 +110,9 @@ k
 ## Checkout Manager
 
 ```bash
-cd ~/.checkoutmanager && git clone git@github.com:aclark4life/checkoutmanager && u
+cd ~/.checkoutmanager
+git clone git@github.com:aclark4life/checkoutmanager
+u
 ```
 
 ## Dotfiles remote
