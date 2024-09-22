@@ -84,6 +84,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/inst
 .pyenv/shims/pipx install dotfiles 
 .pyenv/shims/pipx install checkoutmanager
 .pyenv/shims/pipx install mongo-orchestration
+.pyenv/shims/pipx install pipdeptree
 .pyenv/shims/pipx install pypistats
 .pyenv/shims/pipx install uv
 ```
