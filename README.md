@@ -1,6 +1,6 @@
 # Setup macOS and Linux
 
-"It's almost too easy." —Alex
+> "It's almost too easy." —Alex
 
 Based on:
 
