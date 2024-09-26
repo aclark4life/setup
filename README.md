@@ -150,6 +150,10 @@ git push --set-upstream origin main
 - [VS Code](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
 - [Copilot](https://code.visualstudio.com/docs/copilot/setup#_step-2-install-the-github-copilot-extension)
 
+## Neovim
+
+- [Copilot](https://github.com/github/copilot.vim)
+
 ## pCloud
 
 - https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1
