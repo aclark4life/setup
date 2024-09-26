@@ -21,6 +21,7 @@ Based on:
     - [Must have](#must-have)
     - [Nice to have](#nice-to-have)
 - [VS Code](#vs-code)
+- [Neovim](#neovim)
 - [pCloud](#pcloud)
 - [Firefox tab previews](#firefox-tab-previews)
 - [nvm](#nvm)
