@@ -82,6 +82,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ```bash
 .pyenv/shims/pip install pipx
+.pyenv/shims/pipx install djlint
 .pyenv/shims/pipx install dotfiles 
 .pyenv/shims/pipx install checkoutmanager
 .pyenv/shims/pipx install mongo-orchestration
