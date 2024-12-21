@@ -92,7 +92,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ## Dotfiles
 
-A lot of setup happens [here](https://github.com/aclark4life/dotfiles).
+Via [dotfiles](https://github.com/aclark4life/dotfiles).
 
 ```bash
 git clone https://github.com/aclark4life/dotfiles Dotfiles
