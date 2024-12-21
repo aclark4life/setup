@@ -116,8 +116,7 @@ k
 ## Checkout Manager
 
 ```bash
-cd ~/.checkoutmanager
-git clone git@github.com:aclark4life/checkoutmanager
+git clone git@github.com:aclark4life/checkoutmanager .checkoutmanager
 u
 ```
 
