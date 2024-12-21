@@ -2,9 +2,10 @@
 
 > "It's almost too easy." —Alex
 
-Based on:
+Based on (RIP):
 
-- https://github.com/aclark4life/setup-macos (RIP)
+- https://github.com/aclark4life/setup-macos
+- https://github.com/aclark4life/setup-linux
 
 ## Table of Contents
 - [Oh My ZSH](#oh-my-zsh)
@@ -73,9 +74,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ### Linux
 ```bash
-/home/linuxbrew/.linuxbrewbin/brew install pyenv
-/home/linuxbrew/.linuxbrewbin/pyenv install 3
-/home/linuxbrew/.linuxbrewbin/pyenv global 3
+/home/linuxbrew/.linuxbrew/bin/brew install pyenv
+/home/linuxbrew/.linuxbrew/bin/pyenv install 3
+/home/linuxbrew/.linuxbrew/bin/pyenv global 3
 ```
 
 ## PipX
