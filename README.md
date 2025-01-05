@@ -113,13 +113,6 @@ k
 >
 > `pbcopy < ~/.ssh/id.pub` and add [New SSH key to GitHub](https://github.com/settings/ssh/new)!
 
-## Checkout Manager
-
-```bash
-git clone git@github.com:aclark4life/checkoutmanager .checkoutmanager
-u
-```
-
 ## Dotfiles remote
 
 > [!NOTE]
