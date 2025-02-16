@@ -2,7 +2,7 @@
 
 > "It's almost too easy." —Alex
 
-Based on (RIP):
+Based on these, RIP:
 
 - https://github.com/aclark4life/setup-macos
 - https://github.com/aclark4life/setup-linux
