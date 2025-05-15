@@ -16,6 +16,9 @@ Based on these, RIP:
 - [PipX](#pipx)
 - [ssh-keygen](#ssh-keygen)
 - [Dotfiles](#dotfiles)
+    - [Clone](#clone)
+    - [Copy key](#copy-key)
+    - [Add key](#add-key)
 - [Checkout Manager](#checkout-manager)
 - [Dotfiles remote](#dotfiles-remote)
 - [Firefox extensions](#firefox-extensions)
@@ -117,7 +120,7 @@ pbcopy < ~/.ssh/id.pub
 > [!NOTE]
 > You will need your GitHub account information for this step.
 
-[Add a new key](https://github.com/settings/ssh/new)!
+[Add a new key to GitHub](https://github.com/settings/ssh/new)!
 
 ### Fix remote
 
