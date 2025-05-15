@@ -108,12 +108,14 @@ git clone https://github.com/aclark4life/dotfiles Dotfiles
 
 ### Copy key
 
-> [!NOTE]
-> You will need your GitHub account information for this step.
-
 ```bash
 pbcopy < ~/.ssh/id.pub
 ```
+
+### Add key
+
+> [!NOTE]
+> You will need your GitHub account information for this step.
 
 Now [add a new key](https://github.com/settings/ssh/new)!
 
