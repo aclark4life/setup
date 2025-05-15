@@ -14,8 +14,8 @@ Based on these, RIP:
     - [macOS](#macos)
     - [Linux](#linux)
 - [PipX](#pipx)
-- [Dotfiles](#dotfiles)
 - [ssh-keygen](#ssh-keygen)
+- [Dotfiles](#dotfiles)
 - [Checkout Manager](#checkout-manager)
 - [Dotfiles remote](#dotfiles-remote)
 - [Firefox extensions](#firefox-extensions)
@@ -90,6 +90,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 .pyenv/shims/pipx install uv
 ```
 
+## ssh-keygen
+```bash
+ssh-keygen -t ed25519 -f ~/.ssh/id
+```
+
 ## Dotfiles
 
 Via [dotfiles](https://github.com/aclark4life/dotfiles).
@@ -100,20 +105,13 @@ git clone https://github.com/aclark4life/dotfiles Dotfiles
 ```
 
 > [!NOTE]
-> `source .zshrc` or restart your terminal now!
+> You will need your GitHub account information for this next step.
 
-## ssh-keygen
 ```bash
-k
+pbcopy < ~/.ssh/id.pub
 ```
 
-> [!NOTE]
-> 
-> You will need your GitHub password for this step.
->
-> `pbcopy < ~/.ssh/id.pub` and add [New SSH key to GitHub](https://github.com/settings/ssh/new)!
-
-## Dotfiles remote
+Now add the [new SSH key to GitHub](https://github.com/settings/ssh/new)!
 
 > [!NOTE]
 > Edit `~/Dotfiles/.git/config` and change the origin or run the following commands:
