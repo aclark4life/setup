@@ -117,7 +117,7 @@ pbcopy < ~/.ssh/id.pub
 > [!NOTE]
 > You will need your GitHub account information for this step.
 
-Now [add a new key](https://github.com/settings/ssh/new)!
+[Add a new key](https://github.com/settings/ssh/new)!
 
 ### Fix remote
 
