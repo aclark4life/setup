@@ -99,10 +99,14 @@ ssh-keygen -t ed25519 -f ~/.ssh/id
 
 Via [dotfiles](https://github.com/aclark4life/dotfiles).
 
+### Clone
+
 ```bash
 git clone https://github.com/aclark4life/dotfiles Dotfiles
 .local/bin/dotfiles -sf
 ```
+
+### SSH key
 
 > [!NOTE]
 > You will need your GitHub account information for this next step.
@@ -111,10 +115,9 @@ git clone https://github.com/aclark4life/dotfiles Dotfiles
 pbcopy < ~/.ssh/id.pub
 ```
 
-Now add the [new SSH key to GitHub](https://github.com/settings/ssh/new)!
+Add the [new SSH key to GitHub](https://github.com/settings/ssh/new)!
 
-> [!NOTE]
-> Edit `~/Dotfiles/.git/config` and change the origin or run the following commands:
+### Fix remote
 
 ```bash
 cd ~/Dotfiles
