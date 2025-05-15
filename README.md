@@ -19,6 +19,7 @@ Based on these, RIP:
     - [Clone](#clone)
     - [Copy key](#copy-key)
     - [Add key](#add-key)
+    - [Fix remote](#fix-remote)
 - [Checkout Manager](#checkout-manager)
 - [Firefox extensions](#firefox-extensions)
     - [Must have](#must-have)
