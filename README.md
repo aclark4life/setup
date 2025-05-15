@@ -115,7 +115,7 @@ git clone https://github.com/aclark4life/dotfiles Dotfiles
 pbcopy < ~/.ssh/id.pub
 ```
 
-### [Add key](https://github.com/settings/ssh/new)!
+### [Add key](https://github.com/settings/ssh/new)
 
 ### Fix remote
 
