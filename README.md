@@ -106,7 +106,7 @@ git clone https://github.com/aclark4life/dotfiles Dotfiles
 .local/bin/dotfiles -sf
 ```
 
-### Create key
+### Copy key
 
 > [!NOTE]
 > You will need your GitHub account information for this step.
@@ -115,7 +115,7 @@ git clone https://github.com/aclark4life/dotfiles Dotfiles
 pbcopy < ~/.ssh/id.pub
 ```
 
-### [Add key](https://github.com/settings/ssh/new)
+Now [add a new key](https://github.com/settings/ssh/new)!
 
 ### Fix remote
 
