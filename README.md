@@ -20,7 +20,6 @@ Based on these, RIP:
     - [Copy key](#copy-key)
     - [Add key](#add-key)
 - [Checkout Manager](#checkout-manager)
-- [Dotfiles remote](#dotfiles-remote)
 - [Firefox extensions](#firefox-extensions)
     - [Must have](#must-have)
     - [Nice to have](#nice-to-have)
