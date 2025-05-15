@@ -14,7 +14,7 @@ Based on these, RIP:
     - [macOS](#macos)
     - [Linux](#linux)
 - [PipX](#pipx)
-- [ssh-keygen](#ssh-keygen)
+- [Create key](#create-key)
 - [Dotfiles](#dotfiles)
     - [Clone](#clone)
     - [Copy key](#copy-key)
@@ -93,7 +93,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 .pyenv/shims/pipx install uv
 ```
 
-## ssh-keygen
+## Create key
 ```bash
 ssh-keygen -t ed25519 -f ~/.ssh/id
 ```
