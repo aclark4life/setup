@@ -24,6 +24,7 @@ Based on (RIP):
 - [Firefox extensions](#firefox-extensions)
     - [Must have](#must-have)
     - [Nice to have](#nice-to-have)
+- [Chrome extensions](#chrome-extensions)
 - [VS Code](#vs-code)
 - [Neovim](#neovim)
 - [pCloud](#pcloud)
@@ -141,6 +142,11 @@ git push --set-upstream origin main
 
 - [Colorzilla](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/)
 - [Measure-it](https://addons.mozilla.org/en-US/firefox/addon/measure-it/)
+
+## Chrome extensions
+
+- [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
+- [Video Speed Controller](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en)
 
 ## VS Code
 
