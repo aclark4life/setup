@@ -132,18 +132,31 @@ git remote add origin git@github.com:aclark4life/dotfiles.git
 git push --set-upstream origin main
 ```
 
-## Firefox extensions
+## Firefox
 
-### Must have
+### Extensions
 
 - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
-
-### Nice to have
-
 - [Colorzilla](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/)
 - [Measure-it](https://addons.mozilla.org/en-US/firefox/addon/measure-it/)
 
-## Chrome extensions
+### Disable Firefox tab hover preview
+
+> [!NOTE]
+>
+> [Tab previews are annoying](https://connect.mozilla.org/t5/discussions/tab-previews-are-annoying/m-p/64519#M22742)
+
+[Open config](about:config)
+
+Set to false
+
+```
+browser.tabs.hoverPreview.enabled
+```
+
+## Chrome
+
+### Extensions
 
 - [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 - [Video Speed Controller](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en)
@@ -160,18 +173,6 @@ git push --set-upstream origin main
 ## pCloud
 
 - https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1
-
-## Firefox tab previews 
-
-> [!NOTE]
->
-> [Tab previews are annoying](https://connect.mozilla.org/t5/discussions/tab-previews-are-annoying/m-p/64519#M22742)
-
-```
-echo "user_pref("browser.tabs.hoverPreview.enabled", false);" > \
-  ~/Library/Application\ Support/Firefox/Profiles/<profile>/user.js
-
-```
 
 ## nvm
 
