@@ -102,9 +102,9 @@ git push --set-upstream origin main
 >
 > [Tab previews are annoying](https://connect.mozilla.org/t5/discussions/tab-previews-are-annoying/m-p/64519#M22742)
 
-[Open config](about:config)
+[Open config](http://about:config)
 
-Set to false
+Set to false:
 
 ```
 browser.tabs.hoverPreview.enabled
