@@ -77,7 +77,7 @@ pbcopy < ~/.ssh/id.pub
 > [!NOTE]
 > You will need your GitHub account information for this step.
 
-[Add a new key to GitHub](https://github.com/settings/ssh/new)!
+[Add a new key to GitHub](https://github.com/settings/ssh/new)
 
 ### Fix remote
 
@@ -102,7 +102,7 @@ git push --set-upstream origin main
 >
 > [Tab previews are annoying](https://connect.mozilla.org/t5/discussions/tab-previews-are-annoying/m-p/64519#M22742)
 
-Open `about:config` and Set to false:
+Open `about:config` and set to false:
 
 ```
 browser.tabs.hoverPreview.enabled
