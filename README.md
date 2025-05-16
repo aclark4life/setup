@@ -130,36 +130,16 @@ browser.tabs.hoverPreview.enabled
 
 ## nvm
 
-> [!NOTE]
-> 
-> Installed by Homebrew, used to install `m`
-
 ```
 nvm install 22
 nvm use 22
 ```
-
-> [!NOTE]
->
-> MongoDB Version Management
 
 ## m
 
 ```
 npm install -g m
 m stable
-mo start
-ml single
-```
-
-## Brew services
-
-> [!NOTE]
->
-> Start postgresql
-
-```
-brew services start postgresql
 ```
 
 ## Terminal
