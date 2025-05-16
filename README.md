@@ -28,8 +28,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ```bash
 /opt/homebrew/bin/brew install pyenv
-/opt/homebrew/bin/pyenv install 3
-/opt/homebrew/bin/pyenv global 3
+/opt/homebrew/bin/pyenv install 3.13
+/opt/homebrew/bin/pyenv install 3.12
+/opt/homebrew/bin/pyenv global 3.13
 ```
 
 ### Linux
