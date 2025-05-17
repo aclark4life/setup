@@ -239,5 +239,3 @@ m stable
 - alexclark → Login Items → + Jumpcut
 - alexclark → Login Items → + pCloud Drive
 - Login Options → Automatic Login → alexclark
-
-[Back to top](#table-of-contents)
