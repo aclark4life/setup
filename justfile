@@ -6,3 +6,4 @@ e:
 
 c: 
     git commit -a -m "Update README.md"
+    git push
