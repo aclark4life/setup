@@ -3,3 +3,6 @@ default:
 
 e:
     vi README.md
+
+c: 
+    git commit -a -m "Update README.md"

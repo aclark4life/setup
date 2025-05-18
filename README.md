@@ -193,7 +193,6 @@ m stable
 
 ### Battery
 
-- Battery → Turn display off after [Never]
 - Battery → ☐ Slightly dim the display when on battery power
 - Battery → ☐ Enable Power Nap while on battery power
 - Power Adapter → Turn display off after [Never]
@@ -220,6 +219,11 @@ m stable
 - Input Sources → ☑︎ Show input menu in menu bar
 - Shortcuts → Mission Control → ☑︎ Move left a space [⌘←]
 - Shortcuts → Mission Control → ☑︎ Move right a space [⌘→]
+
+### Lock Screen
+
+- Turn display off on battery when inactive [Never]
+- Turn display off on power supply when inactive [Never]
 
 ### Mission Control
 
