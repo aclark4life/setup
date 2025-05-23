@@ -91,11 +91,13 @@ git push --set-upstream origin main
 
 ## sudo
 
+### Create file
+
 ```bash
 sudo visudo -f /etc/sudoers.d/alexclark
 ```
 
-Enter and save
+### Enter and save new entry
 
 ```
 alexclark ALL=(ALL) NOPASSWD: ALL
