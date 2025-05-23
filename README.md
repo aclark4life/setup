@@ -89,6 +89,18 @@ git remote add origin git@github.com:aclark4life/dotfiles.git
 git push --set-upstream origin main
 ```
 
+## sudo
+
+```bash
+sudo visudo -f /etc/sudoers.d/nopasswd_alex
+```
+
+Enter and save
+
+```
+alexclark ALL=(ALL) NOPASSWD: ALL
+```
+
 ## Firefox
 
 ### Extensions
