@@ -92,7 +92,7 @@ git push --set-upstream origin main
 ## sudo
 
 ```bash
-sudo visudo -f /etc/sudoers.d/nopasswd_alex
+sudo visudo -f /etc/sudoers.d/alexclark
 ```
 
 Enter and save
