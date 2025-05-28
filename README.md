@@ -157,6 +157,14 @@ npm install -g m
 m stable
 ```
 
+## xeyes
+
+From an `xterm` (via XQuartz), run
+
+```
+xeyes -geometry 300x400
+```
+
 ## Terminal
 
 > [!NOTE]
