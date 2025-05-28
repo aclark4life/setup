@@ -4,8 +4,6 @@
 
 Based on:
 
-(RIP)
-
 - https://github.com/aclark4life/setup-macos
 - https://github.com/aclark4life/setup-linux
 
