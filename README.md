@@ -139,6 +139,10 @@ browser.tabs.hoverPreview.enabled
 
 - [Copilot](https://github.com/github/copilot.vim)
 
+```
+git clone https://github.com/github/copilot.vim ~/.config/nvim/pack/github/start/copilot.vim
+```
+
 ## pCloud
 
 - https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1
