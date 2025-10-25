@@ -21,9 +21,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ## PyEnv
 
-> [!NOTE]
-> `pyenv` will select the latest stable version of Python 3
-
 ### macOS
 
 ```bash
@@ -45,9 +42,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 .pyenv/shims/pip install pipx
 .pyenv/shims/pipx install dotfiles 
 .pyenv/shims/pipx install checkoutmanager
-.pyenv/shims/pipx install pre-commit
-.pyenv/shims/pipx install pypistats
-.pyenv/shims/pipx install uv
 ```
 
 ## Create key
