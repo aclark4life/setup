@@ -7,16 +7,16 @@ Based on:
 - https://github.com/aclark4life/setup-macos
 - https://github.com/aclark4life/setup-linux
 
-## Oh My ZSH
-
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
 ## Homebrew
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+## Oh My ZSH
+
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ## PyEnv
@@ -28,16 +28,15 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ```bash
 /opt/homebrew/bin/brew install pyenv
-/opt/homebrew/bin/pyenv install 3.13
-/opt/homebrew/bin/pyenv install 3.12
-/opt/homebrew/bin/pyenv global 3.13
+/opt/homebrew/bin/pyenv install 3.14
+/opt/homebrew/bin/pyenv global 3.14
 ```
 
 ### Linux
 ```bash
 /home/linuxbrew/.linuxbrew/bin/brew install pyenv
-/home/linuxbrew/.linuxbrew/bin/pyenv install 3
-/home/linuxbrew/.linuxbrew/bin/pyenv global 3
+/home/linuxbrew/.linuxbrew/bin/pyenv install 3.14
+/home/linuxbrew/.linuxbrew/bin/pyenv global 3.14
 ```
 
 ## PipX
