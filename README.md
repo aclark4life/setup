@@ -42,7 +42,8 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 .pyenv/shims/pip install pipx
 .pyenv/shims/pipx install checkoutmanager
 .pyenv/shims/pipx install dotfiles
-.pyenv/shims/pipx install pre-commit 
+.pyenv/shims/pipx install mongo-orchestration
+.pyenv/shims/pipx install pre-commit
 ```
 
 ## Create key
