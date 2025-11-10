@@ -39,6 +39,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ## PipX
 
 ```bash
+.pyenv/shims/pip install -U pip
 .pyenv/shims/pip install pipx
 .pyenv/shims/pipx install checkoutmanager
 .pyenv/shims/pipx install dotfiles
