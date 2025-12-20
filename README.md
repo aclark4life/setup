@@ -7,6 +7,16 @@ Based on:
 - https://github.com/aclark4life/setup-macos
 - https://github.com/aclark4life/setup-linux
 
+## sudo
+
+### Create file
+
+```bash
+sudo su -
+export SUDO_EDITOR=vi
+visudo -f /etc/sudoers.d/alexclark
+```
+
 ## Homebrew
 
 ```bash
@@ -87,13 +97,6 @@ git remote add origin git@github.com:aclark4life/dotfiles.git
 git push --set-upstream origin main
 ```
 
-## sudo
-
-### Create file
-
-```bash
-sudo visudo -f /etc/sudoers.d/alexclark
-```
 
 ### Enter and save
 
