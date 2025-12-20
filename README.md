@@ -26,6 +26,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ## Oh My ZSH
 
+> [!NOTE]
+> On Linux you may need to install zsh then `chsh` to `/usr/bin/zsh`.
+
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
