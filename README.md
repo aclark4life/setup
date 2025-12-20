@@ -172,14 +172,13 @@ xeyes -geometry 300x400
 ## Terminal
 
 > [!NOTE]
-> 
-> Increase the font size 4 times
+> macOS only
+
+### Increase the font size 4 times
 
 - ⌘ ++++
 
-> [!NOTE]
-> 
-> Save as default
+### Save as default
 
 - Terminal → Shell → Use Settings as Default
 
