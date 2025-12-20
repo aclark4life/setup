@@ -12,6 +12,12 @@ export SUDO_EDITOR=vi
 visudo -f /etc/sudoers.d/alexclark
 ```
 
+### Enter and save
+
+```
+alexclark ALL=(ALL) NOPASSWD: ALL
+```
+
 ## Homebrew
 
 ```bash
@@ -92,12 +98,6 @@ git remote add origin git@github.com:aclark4life/dotfiles.git
 git push --set-upstream origin main
 ```
 
-
-### Enter and save
-
-```
-alexclark ALL=(ALL) NOPASSWD: ALL
-```
 
 ## Firefox
 
