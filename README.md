@@ -2,11 +2,6 @@
 
 > "It's almost too easy." —Alex
 
-Based on:
-
-- https://github.com/aclark4life/setup-macos
-- https://github.com/aclark4life/setup-linux
-
 ## sudo
 
 ### Create file
