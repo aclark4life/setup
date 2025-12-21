@@ -88,7 +88,7 @@ pbcopy < ~/.ssh/id.pub
 #### Linux 
 
 ```bash
-pbcopy < ~/.ssh/id.pub
+wl-copy < ~/.ssh/id.pub
 ```
 
 ### Add key
