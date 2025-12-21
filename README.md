@@ -31,7 +31,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 ## Oh My ZSH
 
 > [!NOTE]
-> On Linux install zsh then `chsh` to zsh.
+> On Linux install zsh first then `chsh` to zsh.
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
