@@ -63,12 +63,12 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 .pyenv/shims/pipx install dotfiles
 ```
 
-## Create key
+## [Dotfiles](https://github.com/aclark4life/dotfiles)
+
+### Create key
 ```bash
 ssh-keygen -t ed25519 -f ~/.ssh/id
 ```
-
-## [Dotfiles](https://github.com/aclark4life/dotfiles)
 
 ### Clone
 
