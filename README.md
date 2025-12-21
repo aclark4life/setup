@@ -68,7 +68,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ssh-keygen -t ed25519 -f ~/.ssh/id
 ```
 
-## [Dotfiles](https://github.com/aclark4life/dotfiles).
+## [Dotfiles](https://github.com/aclark4life/dotfiles)
 
 ### Clone
 
