@@ -10,7 +10,7 @@ export SUDO_EDITOR=vi
 visudo -f /etc/sudoers.d/alexclark
 ```
 
-### Enter `NOPASSWD` and save
+### Enter `NOPASSWD`
 
 ```
 alexclark ALL=(ALL) NOPASSWD: ALL
