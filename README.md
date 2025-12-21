@@ -184,6 +184,9 @@ xeyes -geometry 300x400
 
 ### Preferences…
 
+> [!NOTE]
+> macOS only
+
 #### Profiles → Advanced → Bell
 
 - ☐ Audible bell 
@@ -208,8 +211,9 @@ xeyes -geometry 300x400
 ## System Preferences
 
 > [!NOTE]
-> Click your way to the finish!
->
+> macOS only
+
+> [!NOTE]
 > Ideally this would be done with [defaults write](https://github.com/aclark4life/setup-macos/blob/40eee1aad8bd0e1aa6926af9751f95f905fd89d8/project.mk#L3-L11).
 
 ### Accessibility
