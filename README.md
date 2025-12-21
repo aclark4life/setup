@@ -79,6 +79,14 @@ git clone https://github.com/aclark4life/dotfiles Dotfiles
 
 ### Copy key
 
+#### macOS
+
+```bash
+pbcopy < ~/.ssh/id.pub
+```
+
+#### Linux 
+
 ```bash
 pbcopy < ~/.ssh/id.pub
 ```
