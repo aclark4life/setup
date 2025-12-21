@@ -4,7 +4,7 @@
 
 ## sudo
 
-You're going to be typing `sudo` a lot so let's not have to type your password every time.
+> You're going to be typing `sudo` a lot so let's not have to type your password every time.
 
 ### Create file
 
