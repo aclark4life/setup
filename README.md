@@ -6,7 +6,7 @@
 
 > You're going to be typing `sudo` a lot so let's not have to type your password every time.
 
-### Create file
+### Create file in `sudoers.d`
 
 ```bash
 sudo su -
