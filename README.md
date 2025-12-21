@@ -22,7 +22,7 @@ alexclark ALL=(ALL) NOPASSWD: ALL
 
 ## Homebrew
 
-> More handy on macOS but may help on Linux too.
+> More useful on macOS but may come in handy on Linux too.
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
