@@ -1,10 +1,6 @@
 # Setup macOS and Linux
 
-> "It's almost too easy." —Alex
-
 ## sudo
-
-> You're going to be typing `sudo` a lot, so let's not type your password every time.
 
 ### Create file in `sudoers.d`
 
@@ -21,8 +17,6 @@ alexclark ALL=(ALL) NOPASSWD: ALL
 ```
 
 ## Homebrew
-
-> More useful on macOS but may come in handy on Linux too.
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
