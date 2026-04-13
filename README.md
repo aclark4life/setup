@@ -33,7 +33,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ## PyEnv
 
-### macOS
+- macOS
 
 ```bash
 /opt/homebrew/bin/brew install pyenv
@@ -41,7 +41,8 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 /opt/homebrew/bin/pyenv global 3.14
 ```
 
-### Linux
+- Linux
+
 ```bash
 /home/linuxbrew/.linuxbrew/bin/brew install pyenv
 /home/linuxbrew/.linuxbrew/bin/pyenv install 3.14
