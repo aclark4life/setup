@@ -2,7 +2,7 @@
 
 ## sudo
 
-- Create file in `sudoers.d`
+- Create file in `/etc/sudoers.d`
 
 ```bash
 sudo su -
@@ -10,7 +10,7 @@ export SUDO_EDITOR=vi
 visudo -f /etc/sudoers.d/alex.clark
 ```
 
-- Enter `NOPASSWD`
+- Add entry for `alex.clark`
 
 ```
 alex.clark ALL=(ALL) NOPASSWD: ALL
