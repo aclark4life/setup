@@ -2,7 +2,7 @@
 
 ## sudo
 
-- Run `sudo visudo` and add an entry for `alex.clark`
+Run `sudo visudo` and add an entry for `alex.clark`
 
 ```
 alex.clark ALL=(ALL) NOPASSWD: ALL
@@ -55,20 +55,20 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 > [!NOTE]
 > See https://github.com/aclark4life/dotfiles
 
-- Create key
+Create an ssh key
 
 ```bash
 ssh-keygen -t ed25519 -f ~/.ssh/id
 ```
 
-- Clone
+Clone the dotfiles repository
 
 ```bash
 git clone https://github.com/aclark4life/dotfiles Dotfiles
 .local/bin/dotfiles -sf
 ```
 
-### Copy key
+Copy the ssh key
 
 - macOS
 
@@ -82,14 +82,14 @@ pbcopy < ~/.ssh/id.pub
 wl-copy < ~/.ssh/id.pub
 ```
 
-### Add key
+Add the key to your GitHub account
 
 > [!NOTE]
 > You will need your GitHub account information for this step.
 
 [Add a new key to GitHub](https://github.com/settings/ssh/new)
 
-### Fix remote
+Fix the remote
 
 ```bash
 cd ~/Dotfiles
