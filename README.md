@@ -7,13 +7,13 @@
 ```bash
 sudo su -
 export SUDO_EDITOR=vi
-visudo -f /etc/sudoers.d/alexclark
+visudo -f /etc/sudoers.d/alex.clark
 ```
 
 - Enter `NOPASSWD`
 
 ```
-alexclark ALL=(ALL) NOPASSWD: ALL
+alex.clark ALL=(ALL) NOPASSWD: ALL
 ```
 
 ## Homebrew
