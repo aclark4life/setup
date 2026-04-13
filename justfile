@@ -3,3 +3,6 @@ default:
 
 e:
     vi README.md
+
+g:
+    glow -p README.md
