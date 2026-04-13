@@ -2,7 +2,7 @@
 
 ## sudo
 
-### Create file in `sudoers.d`
+- Create file in `sudoers.d`
 
 ```bash
 sudo su -
@@ -10,7 +10,7 @@ export SUDO_EDITOR=vi
 visudo -f /etc/sudoers.d/alexclark
 ```
 
-### Enter `NOPASSWD`
+- Enter `NOPASSWD`
 
 ```
 alexclark ALL=(ALL) NOPASSWD: ALL
