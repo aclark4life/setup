@@ -60,12 +60,13 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ## [Dotfiles](https://github.com/aclark4life/dotfiles)
 
-### Create key
+- Create key
+
 ```bash
 ssh-keygen -t ed25519 -f ~/.ssh/id
 ```
 
-### Clone
+- Clone
 
 ```bash
 git clone https://github.com/aclark4life/dotfiles Dotfiles
@@ -74,13 +75,13 @@ git clone https://github.com/aclark4life/dotfiles Dotfiles
 
 ### Copy key
 
-#### macOS
+- macOS
 
 ```bash
 pbcopy < ~/.ssh/id.pub
 ```
 
-#### Linux 
+- Linux 
 
 ```bash
 wl-copy < ~/.ssh/id.pub
@@ -101,7 +102,6 @@ git remote remove origin
 git remote add origin git@github.com:aclark4life/dotfiles.git
 git push --set-upstream origin main
 ```
-
 
 ## Firefox
 
