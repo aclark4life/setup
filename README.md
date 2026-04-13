@@ -50,7 +50,10 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 .pyenv/shims/pipx install dotfiles
 ```
 
-## [Dotfiles](https://github.com/aclark4life/dotfiles)
+## Dotfiles
+
+> [!NOTE]
+> See https://github.com/aclark4life/dotfiles
 
 - Create key
 
