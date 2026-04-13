@@ -29,16 +29,16 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ```bash
 /opt/homebrew/bin/brew install pyenv
-/opt/homebrew/bin/pyenv install 3.14
-/opt/homebrew/bin/pyenv global 3.14
+/opt/homebrew/bin/pyenv install 3.13
+/opt/homebrew/bin/pyenv global 3.13
 ```
 
 - Linux
 
 ```bash
 /home/linuxbrew/.linuxbrew/bin/brew install pyenv
-/home/linuxbrew/.linuxbrew/bin/pyenv install 3.14
-/home/linuxbrew/.linuxbrew/bin/pyenv global 3.14
+/home/linuxbrew/.linuxbrew/bin/pyenv install 3.13
+/home/linuxbrew/.linuxbrew/bin/pyenv global 3.13
 ```
 
 ## PipX
