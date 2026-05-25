@@ -104,7 +104,8 @@ git push --set-upstream origin main
 
 ### Firefox
 
-- **Extensions:** [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/), [Colorzilla](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/), [Measure-it](https://addons.mozilla.org/en-US/firefox/addon/measure-it/)
+- **Extensions:** [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/), [Colorzilla](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/), [Measure-it](https://addons.mozilla.org/en-US/firefox/addon/measure-it/), [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/)
+
 - **Disable Tab Previews:** Open `about:config` and set `browser.tabs.hoverPreview.enabled` to `false`.
 
 ### Chrome
