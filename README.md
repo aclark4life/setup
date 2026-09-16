@@ -26,11 +26,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ## PyEnv
 
-| Platform  | Binary Path Prefix                |
-| :-------- | :-------------------------------- |
-| **macOS** | `/opt/homebrew/bin/`              |
-| **Linux** | `/home/linuxbrew/.linuxbrew/bin/` |
-
 **macOS Setup:**
 
 ```bash
