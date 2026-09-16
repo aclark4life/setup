@@ -2,10 +2,8 @@
 
 ## sudo
 
-Run `sudo visudo` and add an entry for `alexclark`:
-
-```text
-alexclark ALL=(ALL) NOPASSWD: ALL
+```bash
+echo "alexclark ALL=(ALL) NOPASSWD: ALL" | sudo EDITOR='tee -a' visudo
 ```
 
 ## Package Managers & Shell
