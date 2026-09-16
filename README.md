@@ -162,20 +162,3 @@ xeyes -geometry 300x400
 ```bash
 ~/Dotfiles/macos-system-preferences.sh
 ```
-
-### Terminal (manual)
-
-- **Font:** `⌘` + `++++`
-- **Default:** Terminal → Shell → Use Settings as Default
-
-| Category                | Setting | Requirement                                                 |
-| :---------------------- | :------ | :---------------------------------------------------------- |
-| **Profiles → Advanced** | Bell    | Uncheck all (Audible, Visual, Badge, Bounce)                |
-| **Profiles → Shell**    | Closing | [Close window] when shell exits; [Never] ask before closing |
-| **Profiles → Window**   | Size    | Columns: 120, Rows: 36                                      |
-
-### System Settings (manual)
-
-| Section            | Setting                                                       |
-| :----------------- | :------------------------------------------------------------ |
-| **Users & Groups** | Auto Login: alexclark (not scripted, for security)             |
