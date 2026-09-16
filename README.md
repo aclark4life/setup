@@ -117,11 +117,40 @@ git push --set-upstream origin main
 
 - **Extensions:** [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/), [Colorzilla](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/), [Measure-it](https://addons.mozilla.org/en-US/firefox/addon/measure-it/), [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/)
 
-- **Disable Tab Previews:** Open `about:config` and set `browser.tabs.hoverPreview.enabled` to `false`.
+Open the extension pages (click "Add to Firefox" on each tab):
+
+```bash
+OPEN="$(command -v open || command -v xdg-open)"
+for url in \
+  "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/" \
+  "https://addons.mozilla.org/en-US/firefox/addon/colorzilla/" \
+  "https://addons.mozilla.org/en-US/firefox/addon/measure-it/" \
+  "https://addons.mozilla.org/en-US/firefox/addon/videospeed/"; do
+  "$OPEN" "$url"
+done
+```
+
+- **Disable Tab Previews:** Sets `browser.tabs.hoverPreview.enabled` to `false` without visiting `about:config` manually. Close Firefox first.
+
+```bash
+profile_dir="$(find ~/Library/Application\ Support/Firefox/Profiles ~/.mozilla/firefox -maxdepth 1 -name '*.default*' 2>/dev/null | head -1)"
+echo 'user_pref("browser.tabs.hoverPreview.enabled", false);' >> "$profile_dir/user.js"
+```
 
 ### Chrome
 
 - **Extensions:** [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb), [Video Speed Controller](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en)
+
+Open the extension pages (click "Add to Chrome" on each tab):
+
+```bash
+OPEN="$(command -v open || command -v xdg-open)"
+for url in \
+  "https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb" \
+  "https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en"; do
+  "$OPEN" "$url"
+done
+```
 
 ---
 
