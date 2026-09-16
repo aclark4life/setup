@@ -139,13 +139,11 @@ git push --set-upstream origin main
 git clone https://github.com/github/copilot.vim ~/.config/nvim/pack/github/start/copilot.vim
 ```
 
-**Node (nvm & m):**
+**Node (nvm):**
 
 ```bash
 nvm install 22
 nvm use 22
-npm install -g m
-m stable
 ```
 
 **xeyes:**
