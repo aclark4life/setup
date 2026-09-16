@@ -66,10 +66,18 @@ ssh-keygen -t ed25519 -f ~/.ssh/id
 ```
 
 **2. Copy Key to Clipboard:**
-| Platform | Command |
-| :--- | :--- |
-| **macOS** | `pbcopy < ~/.ssh/id.pub` |
-| **Linux** | `wl-copy < ~/.ssh/id.pub` |
+
+macOS:
+
+```bash
+pbcopy < ~/.ssh/id.pub
+```
+
+Linux:
+
+```bash
+wl-copy < ~/.ssh/id.pub
+```
 
 **3. GitHub Configuration:**
 
