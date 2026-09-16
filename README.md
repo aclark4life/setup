@@ -129,13 +129,6 @@ OPEN="$(command -v open || command -v xdg-open)"
 "$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/videospeed/"
 ```
 
-- **Disable Tab Previews:** Sets `browser.tabs.hoverPreview.enabled` to `false` without visiting `about:config` manually. Close Firefox first.
-
-```bash
-profile_dir="$(find ~/Library/Application\ Support/Firefox/Profiles ~/.mozilla/firefox -maxdepth 1 -name '*.default*' 2>/dev/null | head -1)"
-echo 'user_pref("browser.tabs.hoverPreview.enabled", false);' >> "$profile_dir/user.js"
-```
-
 ### Chrome
 
 - **Extensions:** [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb), [Video Speed Controller](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en)
