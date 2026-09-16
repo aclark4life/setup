@@ -127,11 +127,9 @@ git push --set-upstream origin main
 
 ## Development Tools
 
-| Tool        | Action / Link                                                                                                      |
-| :---------- | :----------------------------------------------------------------------------------------------------------------- |
-| **VS Code** | [Download Darwin Universal](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)           |
-| **Copilot** | [Install Extension](https://code.visualstudio.com/docs/copilot/setup#_step-2-install-the-github-copilot-extension) |
-| **pCloud**  | [Apple Silicon Driver](https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1)       |
+| Tool       | Action / Link                                                                                                |
+| :--------- | :------------------------------------------------------------------------------------------------------------ |
+| **pCloud** | [Apple Silicon Driver](https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1) |
 
 **Neovim Copilot:**
 
