@@ -2,10 +2,10 @@
 
 ## sudo
 
-Run `sudo visudo` and add an entry for `alex.clark`:
+Run `sudo visudo` and add an entry for `alexclark`:
 
 ```text
-alex.clark ALL=(ALL) NOPASSWD: ALL
+alexclark ALL=(ALL) NOPASSWD: ALL
 ```
 
 ## Package Managers & Shell
