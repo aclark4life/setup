@@ -10,7 +10,8 @@ echo "alexclark ALL=(ALL) NOPASSWD: ALL" | sudo EDITOR='tee -a' visudo
 
 Standard install for both **Homebrew** and **Oh My ZSH** on macOS and Linux.
 
-> **Note:** On Linux, install `zsh` + `chsh` first.
+> [!NOTE]
+> On Linux, install `zsh` + `chsh` first.
 
 **Homebrew Command:**
 
