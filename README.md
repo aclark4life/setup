@@ -160,12 +160,6 @@ nvm install 24
 nvm use 24
 ```
 
-**xeyes:**
-
-```bash
-xeyes -geometry 300x400
-```
-
 ---
 
 ## macOS System Preferences
