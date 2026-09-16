@@ -127,7 +127,7 @@ git push --set-upstream origin main
 
 ## Development Tools
 
-**pCloud:** [Apple Silicon Driver](https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1)
+**pCloud:** [Download pCloud Drive](https://www.pcloud.com/download-free-online-cloud-file-storage)
 
 **Neovim Copilot:**
 
