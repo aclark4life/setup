@@ -148,9 +148,17 @@ xeyes -geometry 300x400
 ## macOS System Preferences
 
 > [!NOTE]
-> Settings for manual configuration or `defaults write` scripting.
+> Most settings below are applied automatically by
+> [`macos-system-preferences.sh`](https://github.com/aclark4life/dotfiles/blob/main/macos-system-preferences.sh)
+> in [dotfiles](https://github.com/aclark4life/dotfiles). It's safe to re-run
+> (idempotent); a few settings require `sudo` or Accessibility/Full Disk
+> Access and will prompt as needed.
 
-### Terminal
+```bash
+~/Dotfiles/macos-system-preferences.sh
+```
+
+### Terminal (manual)
 
 - **Font:** `⌘` + `++++`
 - **Default:** Terminal → Shell → Use Settings as Default
@@ -161,15 +169,22 @@ xeyes -geometry 300x400
 | **Profiles → Shell**    | Closing | [Close window] when shell exits; [Never] ask before closing |
 | **Profiles → Window**   | Size    | Columns: 120, Rows: 36                                      |
 
-### System Settings
+### System Settings (scripted)
+
+| Section            | Setting                                                                    |
+| :----------------- | :-------------------------------------------------------------------------- |
+| **Accessibility**  | Zoom → ☑︎ Use scroll gesture with [^Control]                                 |
+| **Battery**        | Power Adapter → Turn display off [Never]; Disable Power Nap                 |
+| **Bluetooth**      | ☑︎ Show in menu bar                                                          |
+| **Displays**       | ☐ Automatically adjust brightness                                           |
+| **Dock**           | ☐ Show recent applications                                                  |
+| **Keyboard**       | Shortcuts → Mission Control → Move left/right a space [⌘← / ⌘→]            |
+| **Lock Screen**    | Turn display off [Never]                                                    |
+| **Mission Control**| Ensure at least 4 desktops (spaces) exist                                    |
+| **Users & Groups** | Login Items: + Jumpcut, + pCloud Drive                                       |
+
+### System Settings (manual)
 
 | Section            | Setting                                                       |
 | :----------------- | :------------------------------------------------------------ |
-| **Accessibility**  | Zoom → ☑︎ Use scroll gesture with [^Control]                   |
-| **Battery**        | Power Adapter → Turn display off [Never]; Disable Power Nap   |
-| **Bluetooth**      | ☑︎ Show in menu bar                                            |
-| **Displays**       | ☐ Automatically adjust brightness                             |
-| **Dock**           | ☐ Show recent applications                                    |
-| **Keyboard**       | Shortcuts → Mission Control → Move left/right [⌘← / ⌘→]       |
-| **Lock Screen**    | Turn display off [Never]                                      |
-| **Users & Groups** | Login Items: + Jumpcut, + pCloud Drive; Auto Login: alexclark |
+| **Users & Groups** | Auto Login: alexclark (not scripted, for security)             |
