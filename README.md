@@ -77,9 +77,19 @@ ssh-keygen -t ed25519 -f ~/.ssh/id
 
 **4. Clone and Link:**
 
+> [!NOTE]
+> `~/Dotfiles/ssh` only tracks `config`, so `dotfiles -sf` replaces `~/.ssh`
+> with a symlink to it. Back up your key first, then restore it after
+> syncing.
+
 ```bash
+mkdir -p ~/ssh-backup
+cp ~/.ssh/id ~/.ssh/id.pub ~/ssh-backup/
 git clone https://github.com/aclark4life/dotfiles Dotfiles
 .local/bin/dotfiles -sf
+cp ~/ssh-backup/id ~/ssh-backup/id.pub ~/.ssh/
+chmod 600 ~/.ssh/id
+rm -rf ~/ssh-backup
 ```
 
 **5. Fix Remote:**
