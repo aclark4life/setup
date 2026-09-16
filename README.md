@@ -174,20 +174,6 @@ xeyes -geometry 300x400
 | **Profiles → Shell**    | Closing | [Close window] when shell exits; [Never] ask before closing |
 | **Profiles → Window**   | Size    | Columns: 120, Rows: 36                                      |
 
-### System Settings (scripted)
-
-| Section            | Setting                                                                    |
-| :----------------- | :-------------------------------------------------------------------------- |
-| **Accessibility**  | Zoom → ☑︎ Use scroll gesture with [^Control]                                 |
-| **Battery**        | Power Adapter → Turn display off [Never]; Disable Power Nap                 |
-| **Bluetooth**      | ☑︎ Show in menu bar                                                          |
-| **Displays**       | ☐ Automatically adjust brightness                                           |
-| **Dock**           | ☐ Show recent applications                                                  |
-| **Keyboard**       | Shortcuts → Mission Control → Move left/right a space [⌘← / ⌘→]            |
-| **Lock Screen**    | Turn display off [Never]                                                    |
-| **Mission Control**| Ensure at least 4 desktops (spaces) exist                                    |
-| **Users & Groups** | Login Items: + Jumpcut, + pCloud Drive                                       |
-
 ### System Settings (manual)
 
 | Section            | Setting                                                       |
