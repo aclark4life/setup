@@ -120,7 +120,11 @@ git push --set-upstream origin main
 Open the extension pages (click "Add to Firefox" on each tab):
 
 ```bash
-OPEN="$(command -v open || command -v xdg-open)"; for url in "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/" "https://addons.mozilla.org/en-US/firefox/addon/colorzilla/" "https://addons.mozilla.org/en-US/firefox/addon/measure-it/" "https://addons.mozilla.org/en-US/firefox/addon/videospeed/"; do "$OPEN" "$url"; done
+OPEN="$(command -v open || command -v xdg-open)"
+"$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/"
+"$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/colorzilla/"
+"$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/measure-it/"
+"$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/videospeed/"
 ```
 
 - **Disable Tab Previews:** Sets `browser.tabs.hoverPreview.enabled` to `false` without visiting `about:config` manually. Close Firefox first.
@@ -137,7 +141,9 @@ echo 'user_pref("browser.tabs.hoverPreview.enabled", false);' >> "$profile_dir/u
 Open the extension pages (click "Add to Chrome" on each tab):
 
 ```bash
-OPEN="$(command -v open || command -v xdg-open)"; for url in "https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb" "https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en"; do "$OPEN" "$url"; done
+OPEN="$(command -v open || command -v xdg-open)"
+"$OPEN" "https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb"
+"$OPEN" "https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en"
 ```
 
 ---
