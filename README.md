@@ -138,8 +138,8 @@ git clone https://github.com/github/copilot.vim ~/.config/nvim/pack/github/start
 **Node (nvm):**
 
 ```bash
-nvm install 22
-nvm use 22
+nvm install 24
+nvm use 24
 ```
 
 **xeyes:**
