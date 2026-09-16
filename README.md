@@ -157,8 +157,9 @@ xeyes -geometry 300x400
 > [`macos-system-preferences.sh`](https://github.com/aclark4life/dotfiles/blob/main/macos-system-preferences.sh)
 > in [dotfiles](https://github.com/aclark4life/dotfiles). It's safe to re-run
 > (idempotent); a few settings require `sudo` or Accessibility/Full Disk
-> Access and will prompt as needed.
+> Access and will prompt as needed. Once dotfiles are linked, run it via the
+> `macprefs` alias.
 
 ```bash
-~/Dotfiles/macos-system-preferences.sh
+macprefs
 ```
