@@ -1,5 +1,7 @@
 # Setup macOS and Linux
 
+See also: [aclark4life/dotfiles](https://github.com/aclark4life/dotfiles).
+
 ## sudo
 
 ```bash
