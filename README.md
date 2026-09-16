@@ -11,7 +11,9 @@ echo "alexclark ALL=(ALL) NOPASSWD: ALL" | sudo EDITOR='tee -a' visudo
 | Component     | macOS            | Linux                        |
 | :------------ | :--------------- | :--------------------------- |
 | **Homebrew**  | Standard Install | Standard Install             |
-| **Oh My ZSH** | Standard Install | Install `zsh` + `chsh` first |
+| **Oh My ZSH** | Standard Install | Standard Install |
+
+> **Note:** On Linux, install `zsh` + `chsh` first.
 
 **Homebrew Command:**
 
