@@ -5,7 +5,7 @@ See also: [aclark4life/dotfiles](https://github.com/aclark4life/dotfiles).
 ## sudo
 
 ```bash
-echo "alexclark ALL=(ALL) NOPASSWD: ALL" | sudo EDITOR='tee -a' visudo
+echo "alex.clark ALL=(ALL) NOPASSWD: ALL" | sudo EDITOR='tee -a' visudo
 ```
 
 ## Package Managers & Shell
