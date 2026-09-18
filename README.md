@@ -119,26 +119,26 @@ git push --set-upstream origin main
 
 - **Extensions:** [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/), [Colorzilla](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/), [Measure-it](https://addons.mozilla.org/en-US/firefox/addon/measure-it/), [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/)
 
-Open the extension pages (click "Add to Firefox" on each tab):
+Open the extension pages in Firefox (click "Add to Firefox" on each tab):
 
 ```bash
-OPEN="$(command -v open || command -v xdg-open)"
-"$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/"
-"$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/colorzilla/"
-"$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/measure-it/"
-"$OPEN" "https://addons.mozilla.org/en-US/firefox/addon/videospeed/"
+open_in_firefox() { command -v firefox >/dev/null && firefox "$1" || open -a Firefox "$1"; }
+open_in_firefox "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/"
+open_in_firefox "https://addons.mozilla.org/en-US/firefox/addon/colorzilla/"
+open_in_firefox "https://addons.mozilla.org/en-US/firefox/addon/measure-it/"
+open_in_firefox "https://addons.mozilla.org/en-US/firefox/addon/videospeed/"
 ```
 
 ### Chrome
 
 - **Extensions:** [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb), [Video Speed Controller](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en)
 
-Open the extension pages (click "Add to Chrome" on each tab):
+Open the extension pages in Chrome (click "Add to Chrome" on each tab):
 
 ```bash
-OPEN="$(command -v open || command -v xdg-open)"
-"$OPEN" "https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb"
-"$OPEN" "https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en"
+open_in_chrome() { command -v google-chrome >/dev/null && google-chrome "$1" || open -a "Google Chrome" "$1"; }
+open_in_chrome "https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb"
+open_in_chrome "https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en"
 ```
 
 ---
