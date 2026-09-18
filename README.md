@@ -54,8 +54,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 .pyenv/shims/pipx install dotfiles
 ```
 
----
-
 ## Dotfiles & SSH
 
 > [!NOTE]
@@ -111,8 +109,6 @@ git remote add origin git@github.com:aclark4life/dotfiles.git
 git push --set-upstream origin main
 ```
 
----
-
 ## Browsers & Extensions
 
 ### Firefox
@@ -141,8 +137,6 @@ open_in_chrome "https://chromewebstore.google.com/detail/bitwarden-password-mana
 open_in_chrome "https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en"
 ```
 
----
-
 ## macOS System Preferences
 
 > [!NOTE]
@@ -156,8 +150,6 @@ open_in_chrome "https://chromewebstore.google.com/detail/video-speed-controller/
 ```bash
 macprefs
 ```
-
----
 
 ## Other Software
 
