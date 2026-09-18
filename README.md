@@ -143,6 +143,22 @@ open_in_chrome "https://chromewebstore.google.com/detail/video-speed-controller/
 
 ---
 
+## macOS System Preferences
+
+> [!NOTE]
+> Most settings below are applied automatically by
+> [`macos-system-preferences.sh`](https://github.com/aclark4life/dotfiles/blob/main/macos-system-preferences.sh)
+> in [dotfiles](https://github.com/aclark4life/dotfiles). It's safe to re-run
+> (idempotent); a few settings require `sudo` or Accessibility/Full Disk
+> Access and will prompt as needed. Once dotfiles are linked, run it via the
+> `macprefs` alias.
+
+```bash
+macprefs
+```
+
+---
+
 ## Other Software
 
 **pCloud:** [Download pCloud Drive](https://www.pcloud.com/download-free-online-cloud-file-storage)
@@ -158,20 +174,4 @@ git clone https://github.com/github/copilot.vim ~/.config/nvim/pack/github/start
 ```bash
 nvm install 24
 nvm use 24
-```
-
----
-
-## macOS System Preferences
-
-> [!NOTE]
-> Most settings below are applied automatically by
-> [`macos-system-preferences.sh`](https://github.com/aclark4life/dotfiles/blob/main/macos-system-preferences.sh)
-> in [dotfiles](https://github.com/aclark4life/dotfiles). It's safe to re-run
-> (idempotent); a few settings require `sudo` or Accessibility/Full Disk
-> Access and will prompt as needed. Once dotfiles are linked, run it via the
-> `macprefs` alias.
-
-```bash
-macprefs
 ```
