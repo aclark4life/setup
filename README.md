@@ -143,7 +143,7 @@ open_in_chrome "https://chromewebstore.google.com/detail/video-speed-controller/
 
 ---
 
-## Development Tools
+## Other Software
 
 **pCloud:** [Download pCloud Drive](https://www.pcloud.com/download-free-online-cloud-file-storage)
 
