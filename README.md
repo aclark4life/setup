@@ -137,6 +137,17 @@ open_in_chrome "https://chromewebstore.google.com/detail/bitwarden-password-mana
 open_in_chrome "https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en"
 ```
 
+### Safari
+
+- **Extensions:** [Bitwarden](https://apps.apple.com/us/app/bitwarden-password-manager/id1352778147)
+
+Open the extension page in Safari (click "View in Mac App Store" / install via the App Store, then enable it in Safari > Settings > Extensions):
+
+```bash
+open_in_safari() { open -a Safari "$1"; }
+open_in_safari "https://apps.apple.com/us/app/bitwarden-password-manager/id1352778147"
+```
+
 ## macOS System Preferences
 
 > [!NOTE]
