@@ -148,6 +148,12 @@ open_in_safari() { open -a Safari "$1"; }
 open_in_safari "https://apps.apple.com/us/app/bitwarden-password-manager/id1352778147"
 ```
 
+> [!NOTE]
+> For Safari/macOS to use Bitwarden instead of iCloud Keychain for
+> AutoFill, go to **System Settings > General > AutoFill & Passwords**,
+> enable Bitwarden as an allowed AutoFill extension, and set it as the
+> default password manager.
+
 ## macOS System Preferences
 
 > [!NOTE]
