@@ -154,6 +154,14 @@ open_in_safari "https://apps.apple.com/us/app/bitwarden-password-manager/id13527
 > enable Bitwarden as an allowed AutoFill extension, and set it as the
 > default password manager.
 
+> [!WARNING]
+> On newer macOS versions, Bitwarden ships two separate Safari
+> integrations: a Password AutoFill Provider and a full Safari Web
+> Extension. If only the "Passwords" entry shows as available (the full
+> extension is missing or greyed out), it's a known Bitwarden/macOS
+> compatibility gap, not a local setup issue — check the Mac App Store /
+> Bitwarden desktop app for updates and retry.
+
 ## macOS System Preferences
 
 > [!NOTE]
