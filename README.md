@@ -176,6 +176,62 @@ open_in_safari "https://apps.apple.com/us/app/bitwarden-password-manager/id13527
 macprefs
 ```
 
+## Remote Desktop (macOS → Zorin/GNOME)
+
+Use **GNOME Desktop Sharing** (RDP into the logged-in session) on the Linux
+host and Microsoft's [Windows App](https://apps.apple.com/us/app/windows-app/id1295203466)
+on macOS. Avoid xrdp (separate X11 session, poor experience) and GNOME
+**Remote Login** (its server handover doesn't work with Windows App on
+macOS: the second login always fails).
+
+**1. Enable auto-login and disable Remote Login** (so Desktop Sharing
+gets port 3389):
+
+```bash
+sudo sed -i "s/^#\? *AutomaticLoginEnable.*/AutomaticLoginEnable=true/; s/^#\? *AutomaticLogin *=.*/AutomaticLogin=$USER/" /etc/gdm3/custom.conf
+sudo grdctl --system rdp disable
+sudo reboot
+```
+
+**2. Blank the keyring password and enable Desktop Sharing:**
+
+Desktop Sharing reads its credentials from the GNOME login keyring, which
+auto-login leaves locked. [`gnome-desktop-sharing.py`](gnome-desktop-sharing.py)
+sets the keyring password to empty (so it unlocks with auto-login), then
+sets the RDP credentials, enables remote control and starts the service. It
+prompts for passwords, so nothing is logged.
+
+```bash
+scp gnome-desktop-sharing.py <host>:/tmp/
+ssh -t <host> /tmp/gnome-desktop-sharing.py
+```
+
+> [!WARNING]
+> A blank keyring password stores saved secrets (browser and Wi-Fi
+> passwords, app tokens) unencrypted on disk.
+
+> [!NOTE]
+> The keyring password can differ from the login password (e.g. after
+> changing the login password with `passwd`). If the script says the
+> password is invalid, try an older login password.
+
+**3. Connect from macOS:**
+
+- Windows App → **+** → **Add PC**, using the host's IP address or
+  fully-qualified name (e.g. `<host>.<router-domain>`). Windows App
+  ignores DNS search domains, so a bare hostname fails with error 0x104
+  even when `ssh <host>` works.
+- Allow Windows App in **System Settings > Privacy & Security > Local
+  Network**.
+- Use the RDP username and password set in step 2.
+
+> [!CAUTION]
+> Don't pass credentials to `sudo grdctl --system rdp set-credentials` on
+> the command line: `sudo` and `pkexec` log the full command, password
+> included, to the system journal. With no TPM, `grdctl --system` also
+> stores credentials in a file that the running daemon only reads at
+> startup, so restart `gnome-remote-desktop` after changing them.
+
 ## Other Software
 
 **pCloud:** [Download pCloud Drive](https://www.pcloud.com/download-free-online-cloud-file-storage)
